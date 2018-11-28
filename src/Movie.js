@@ -37,7 +37,7 @@ const MovieGenre = ({genre})=>{
 }
 
 const MoviePoster = ({poster,alt})=>{
-  return(
+  return (
     <img src={poster} alt={alt} title={alt} className="Movie__Poster"/>
   )
 }
